@@ -1,0 +1,17 @@
+# Ambiente Virtual
+.venv/
+__pycache__/
+
+# Arquivo de dados brutos (NUNCA suba arquivos grandes!)
+*.csv
+song_lyrics.csv
+
+# Arquivos de cache
+data/*.parquet
+
+# Arquivos temporários do Jupyter
+.ipynb_checkpoints/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
